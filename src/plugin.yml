@@ -1,0 +1,18 @@
+main: net.herobrine.blockhunt.BlockHuntMain
+name: BlockHunt
+version: 1.1
+commands:
+  teamtp:
+    description: Teleport to your teammates in-game!  
+  top: 
+    description: Teleport to the surface!
+  stonedrillrecipe:
+    description: Stone Drill Recipe
+  irondrillrecipe:
+    description: Iron Drill Recipe
+  redstonedrillrecipe:
+    description: Redstone Drill Recipe
+  aoterecipe:
+    description: AOTE Recipe
+  recipes:
+    descriptions: View all custom recipes for Block Hunt.             
