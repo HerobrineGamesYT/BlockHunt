@@ -1203,8 +1203,7 @@ public class BlockHuntGame extends Recipes {
 
 								if (finishedTeams.size() == 2) {
 
-									arena.sendMessage(ChatColor.RED
-								1			+ "FATAL ERROR! STOPPING GAME BEFORE EVERYTHING BREAKS... (ERR CODE: TWO_FINISHED_TEAMS)");
+									arena.sendMessage(ChatColor.RED + "FATAL ERROR! STOPPING GAME BEFORE EVERYTHING BREAKS... (ERR CODE: TWO_FINISHED_TEAMS)");
 									arena.reset();
 									removeRecipies();
 									runnable.cancel();

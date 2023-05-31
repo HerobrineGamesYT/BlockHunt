@@ -930,15 +930,10 @@ public class GameListener implements Listener {
 				e.setCancelled(true);
 			}
 
-			else if (!arena.getGame(arena.getID()).equals(Games.BLOCK_HUNT)) {
-				if (!arena.getGame(arena.getID()).equals(Games.CLASH_ROYALE)
-						&& !arena.getGame(arena.getID()).equals(Games.WALLS_SG)) {
-					e.setCancelled(true);
-				}
-
-			}
+			else if (!arena.getGame(arena.getID()).hasEntities()) e.setCancelled(true);
 
 			else {
+				if (!arena.getGame(arena.getID()).equals(Games.BLOCK_HUNT)) return;
 
 				if (arena.hasModifier(ModifiedTypes.MOB_ARMOR)) {
 
