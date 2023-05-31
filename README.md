@@ -1,11 +1,18 @@
 # BlockHunt
 Block Hunt is a game about teamwork and Minecraft skills. Work with your team to find or craft your assigned block and stand on it within 5 minutes to win the round! Best of 3 rounds wins! Also supports modifiers.
 
-This project was developed in 2020.
+This project was developed in 2020, and is the first minigame I ever developed to completion.
+
+Dependencies:
+
+- [Mine] HerobrinePVP-CORE (Main core. It's the backbone for all my custom plugins within this setup.)
+- [Mine] GameCore (Lots of minigame-related functions, configuration settings, and arena management. It's the backbone for all my minigame plugins within this setup.)
+- [3rd Party] NoteBlockAPI (HBPVP-Core Dependency for playing custom NoteBlock themes - i.e win/draw/lose jingles)
+
 
 ![image](https://user-images.githubusercontent.com/74119793/198857740-dfc894d9-f8f7-478a-a981-6c8ca03b0687.png)
 
-**Here's how it works**:
+**Here's how the game works**:
 
 
   - There are a set of blocks, each with an assigned difficulty number. At the start of the game, both teams are assigned two different blocks with the same difficulty.
@@ -34,6 +41,12 @@ A full list of modifiers is below:
 - Special Items Enabled
 
 
+**Commands**:
+Two commands are available for use in-game:
+
+- /teamtp: Teleport to a teammate!
+- /top: Instantly teleport to the surface! Also useful if you're stuck.
+
 **Special Items**:
 When the Special Items modifier is enabled, things can get a little crazy.
 
@@ -45,8 +58,3 @@ The recipes for all of the items are available in the Recipe Book menu that is a
 ![image](https://user-images.githubusercontent.com/74119793/198857969-9b1026b9-c87f-43dd-a8b2-b89271bfa162.png)
 ![image](https://user-images.githubusercontent.com/74119793/198858052-e2498ed9-9ab9-4eff-93c7-40fe93522d83.png)
 ![image](https://user-images.githubusercontent.com/74119793/198858080-953ddd18-bc62-4814-ac6f-811767c8d23c.png)
-
-
-
-
-
